@@ -16,7 +16,7 @@ namespace LinuxEmulator {
 
 class AnotherCommands {
 public:
-	void date();
+    void date();
     void cal();
     void df();
     void free();
