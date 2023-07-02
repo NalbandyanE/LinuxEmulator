@@ -1,0 +1,10 @@
+Print current date and time.
+Print calendar of the current month.
+Print free space amount on disk.
+Print amount of free memory.
+Create a folder named 'exam'.
+Check content of current directory.
+Change directory to 'exam'.
+Check in which directory you are.
+In folder 'exam' create 5 files('file1.txt', 'file2.txt', 'file3.txt', 'file4.txt', 'file5.txt').
+Determine type of 'file3.txt'.

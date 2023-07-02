@@ -1,0 +1,72 @@
+Print current date and time.
+Print calendar of the current month.
+Print free space amount on disk.
+Print amount of free memory.
+Check in which directory you are.
+Check content of current directory.
+Create a folder named 'exam'.
+In folder 'hello' create 5 files('file1.txt', 'file2.txt', 'file3.txt', 'file4.txt', 'file5.txt').
+Print content of file 'file.txt'.
+Determine type of 'file3.txt'.
+Copy 3 files('f1', 'f2', 'f3') from 'dir1' folder into 'dir2' folder.
+Move 2 files('file1', 'file2') from 'dir3' folder into 'dir4' folder.
+Create hard link('linkfile') of file 'f.txt'.
+Create hard link('linkdir') of directory 'dir'.
+Create user with name 'test'.
+Connect to a server at 192.168.1.2 with username 'test1' and password 1111.
+Change password of user 'test2'.
+Create user with name 'user' and check user's id and group id.
+Create file 'file10.txt' write content in it and print first 5 lines.
+Create file 'file8.txt' write content in it and print last 2 lines.
+Print 'I love C++'.
+Create file 'file7.txt' write content in it and check how many lines, words and characters are in it.
+Create file 'file.jpg' and check it's type.
+Create file 'f5.txt' and delete it.
+Create folder 'directory' and delete it. 
+Create file 'f8.txt' and change it's mode, that user can only read the file.
+Print current processes.
+Display tasks.
+List active jobs.
+Check how interpreted cd command's name.
+Determine exact location of a ls command.
+Display a cp command's manual page.
+Display a list of appropriate commands of mv.
+Display a wc command's info entry.
+Display one-line manual page description of apropos command.
+
+
+Answer("date"), 
+		Answer("cal"), 
+		Answer("df"), 
+		Answer("free"),  
+		Answer("pwd"), 
+		Answer("ls"), 
+		Answer("mkdir exam"),
+		Answer("mkdir hello, cd hello, touch file1.txt file2.txt file3.txt file4.txt file5.txt, cd/"),
+		Answer("touch file.txt, cat file.txt"),
+		Answer("file file3.txt"), 
+		Answer("mkdir dir1, mkdir dir2, cd dir1, touch f1 f2 f3, cp f1 /dir2/f1, cp f2 /dir2/f2, cp f3 dir2/f3, cd /"),
+		Answer("mkdir dir3, mkdir dir4, cd dir3, touch file1 file2, mv /dir3/file1, /dir4/, mv /dir3/file2 /dir4/, cd /"),
+		Answer("touch f.txt, ln f.txt linkfile"),
+		Answer("mkdir dir, ln dir linkdir"),
+		Answer("useradd test"),
+		Answer("useradd test1, ssh test1@192.168.1.2"),
+		Answer("useradd test2, passwd test2"),
+		Answer("useradd user, id user"),
+		Answer("vim file10.txt, head 5 file10.txt"),
+		Answer("vim file8.txt, tail 2 file8.txt"),
+		Answer("echo I love C++"),
+		Answer("vim file7.txt, wc file7.txt"),
+		Answer("touch file.jpg, file file.jpg"),
+		Answer("touch file5.txt, rm file5.txt"),
+		Answer("mkdir directory, rmdir diectory"),
+		Answer("touch f8.txt, chmod 177 f8.txt"),
+		Answer("ps"),
+		Answer("top"),
+		Answer("jobs"),
+		Answer("type cd"),
+		Answer("which ls"),
+		Answer("man cp"),
+		Answer("apropos mv"),
+		Answer("info wc"),
+		Answer("whatis apropos")
