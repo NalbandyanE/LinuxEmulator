@@ -111,7 +111,7 @@ void Display::runExam() {
     	std::vector<Answer> answers = db.getAnswers();
     	std::string answer;
     	int correctAnswers = 0;
-    	int numQuestions = 10;
+    	int numQuestions = questions.size();
     	for (int i = 0; i < numQuestions; ++i) {
         	std::cout << "Question " << i + 1 << ": " << questions[i].getQuestion() << std::endl;
         	std::cout << "> ";
