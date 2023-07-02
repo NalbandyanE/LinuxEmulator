@@ -18,8 +18,8 @@ public:
     std::vector<std::string> getArguments() const;
     void setOptions(const std::map<std::string, std::vector<std::string>>&);
     std::map<std::string, std::vector<std::string>> getOptions() const;
-	std::vector<std::string> splitCommand(const std::string&, char);
-	bool isOption(const std::string&) const;
+    std::vector<std::string> splitCommand(const std::string&, char);
+    bool isOption(const std::string&) const;
 private:
     std::string name;
     std::vector<std::string> arguments;
