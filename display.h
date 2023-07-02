@@ -88,6 +88,9 @@ void Display::runTerminal() {
                 		continue;
             		}
         	}
+		if (answer == "exit") {
+            		break;
+        	}
         	Command command(answer);
         	ce.execute(command);
     	}
