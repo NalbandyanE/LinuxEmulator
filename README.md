@@ -56,6 +56,7 @@ Follow the on-screen instructions to interact with the Linux Emulator.
 - `history`: Display history the previously executed commands.
 - `clear`: Clear the terminal screen.
 - `ln <file> <link>`: Create hard link of file.
+- `ssh <username>@<server>`: Access a virtual server with password "1111".
 
 ## Contributing
 
